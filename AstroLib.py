@@ -6,7 +6,7 @@ import pandas as pd
 
 def connectDatabase():
   # Create a Database connection object
-  connection = sq.connect('./Sq4 few data.db')
+  connection = sq.connect('./planets.db')
   return connection
 def getPlanets(connection,date):
   # Create a cursor object.
